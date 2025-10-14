@@ -1,0 +1,61 @@
+## Configuration file for CAVA.
+# Remove the ; to change parameters.
+
+[general]
+framerate = 60
+bars = 0
+autosens = 1
+sensitivity = 80
+
+# Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
+ mode = waves
+
+# Seconds with no input before cava goes to sleep mode. 0 = disable.
+; sleep_timer = 0
+
+
+[input]
+# Usa PipeWire (Hyprland funciona mejor así)
+method = pipewire
+source = auto
+
+# Si usas PulseAudio en lugar de PipeWire:
+# method = pulse
+# source = auto
+
+
+[output]
+method = ncurses
+# orientación normal (barras desde abajo hacia arriba)
+orientation = bottom
+channels = stereo
+; synchronized_sync = 1   # útil si usas Alacritty
+
+
+[color]
+gradient = 1
+gradient_count = 6
+
+# Tonos suaves estilo Catppuccin
+gradient_color_1 = '#4caf7d'  # Verde pastel visible
+gradient_color_2 = '#42a5f5'  # Azul pastel vivo
+gradient_color_3 = '#4db6ac'  # Turquesa pastel
+gradient_color_4 = '#7e57c2'  # Lila pastel fuerte
+gradient_color_5 = '#ab47bc'  # Púrpura pastel vivo
+gradient_color_6 = '#ec407a'  # Rosa pastel intenso
+
+
+
+[smoothing]
+monstercat = 1
+waves = 1
+gravity = 80
+noise_reduction = 77
+
+
+[eq]
+; 1 = 1
+; 2 = 1
+; 3 = 1
+; 4 = 1
+; 5 = 1
