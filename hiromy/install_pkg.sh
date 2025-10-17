@@ -23,4 +23,4 @@ aur_packages=(
         ttf-segoe-ui-variable tint
 )
 sudo pacman -S --noconfirm "${pacman_packages[@]}"
-yay -S --noconfirm "${aur_packages[@]}
+yay -S --noconfirm "${aur_packages[@]}"
