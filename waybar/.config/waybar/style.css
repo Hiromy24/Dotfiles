@@ -3,8 +3,8 @@
 
 * {
     font-family: "JetBrainsMono Nerd Font";
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: bolder;
     background-color: transparent;
     border-radius: 5px;
     min-height: 0;
@@ -70,24 +70,24 @@ tooltip {
 }
 
 #bluetooth {
-    color: @yellow;
+    color: @red;
 }
 
 #network {
-    color: @green;
+    color: @red;
 }
 
 #battery {
-    color: @purple;
+    color: @red;
 }
 
 #pulseaudio {
-    color: @orange;
+    color: @red;
 }
 
 #clock {
     margin-right: 10px;
-    color: @blue;
+    color: @red;
 }
 
 #custom-power {
